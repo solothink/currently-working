@@ -1,0 +1,12 @@
+.gradient-text {
+  background: linear-gradient(to right, #4f46e5, #0ea5e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.text-stroke {
+  color: transparent;
+  -webkit-text-stroke: 1px #39588f; /* Creates a gradient-like outline */
+  -webkit-background-clip: text;
+}
